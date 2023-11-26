@@ -1,0 +1,46 @@
+.homePhotoContainer {
+  margin-top: 2rem;
+  width: 90%;
+  padding-bottom: calc(90% - 36px);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 18px solid var(--photo-border);
+  /* height: 200px; */
+  position: relative;
+  box-shadow: var(--photo-shadow);
+  margin: 30px auto 30px;
+}
+
+.homePhoto {
+  background-image: url('/my-picture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  position: absolute;
+  top: -18px;
+  left: -12px;
+  bottom: 0;
+  right: -18px;
+}
+
+@media (min-width: 500px) {
+  .homePhotoContainer {
+    width: 70%;
+    padding-bottom: calc(70% - 36px);
+  }
+}
+
+@media (min-width: 640px) {
+  .homePhotoContainer {
+    width: 60%;
+    padding-bottom: calc(60% - 36px);
+  }
+}
+
+@media (min-width: 767px) {
+  .homePhotoContainer {
+    width: 100%;
+    padding-bottom: calc(100% - 36px);
+    margin: 0;
+  }
+}

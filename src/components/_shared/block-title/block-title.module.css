@@ -1,0 +1,26 @@
+.blockTitle h2 {
+  font-size: 21px;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.blockTitle h2::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: var(--surface-light-2);
+  height: 2px;
+}
+
+.blockTitle h2::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  bottom: 0;
+  background: var(--primary);
+  left: 0;
+  height: 2px;
+}

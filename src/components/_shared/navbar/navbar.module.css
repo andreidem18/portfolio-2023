@@ -1,0 +1,119 @@
+.padding {
+  padding-bottom: 52px;
+}
+
+.header {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background: var(--surface);
+  z-index: 99;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.logo * {
+  color: inherit;
+}
+
+.logoSymbol {
+  background: var(--primary);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-weight: 800;
+  margin-right: 8px;
+}
+
+.logoText {
+  line-height: 32px;
+  color: var(--font-color);
+}
+
+.toggleButton button {
+  border: none;
+  background: none;
+  line-height: 32px;
+  height: 100%;
+  font-size: 27px;
+  padding: 0;
+  box-shadow: none;
+}
+
+.toggleButton button * {
+  font-size: inherit;
+}
+
+.desplegableMenu {
+  position: fixed;
+  top: 52px;
+  right: -100%;
+  bottom: 0;
+  width: 320px;
+  opacity: 0;
+  background: var(--surface);
+  padding: 30px;
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, .3);
+  transition: .4s;
+  z-index: 9;
+}
+
+.desplegableMenu.open {
+  right: 0;
+  opacity: 1;
+}
+
+.navItem {
+  padding: 20px 0;
+  color: var(--font-color-light);
+  opacity: .55;
+}
+
+.navItem * { color: inherit; }
+
+.navItem.activeLink {
+  opacity: 1;
+}
+
+.itemsList {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding: 40px 50px;
+    background: transparent;
+    position: relative;
+  }
+  .desplegableMenu {
+    display: none;
+  }
+  .toggleButton {
+    display: none;
+  }
+  .itemsList {
+    display: flex;
+    gap: 40px;
+    font-size: .9em;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .logoSymbol {
+    width: 44px;
+    height: 44px;
+    font-size: 27px;
+  }
+}

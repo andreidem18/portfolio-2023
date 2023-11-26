@@ -1,0 +1,21 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 35px;
+}
+
+.contactItem .icon {
+  color: var(--primary);
+  font-size: 40px;
+  line-height: .7;
+}
+
+.contactItem .icon * {
+  color: inherit;
+  font-size: inherit;
+}
+
+.contactValue {
+  font-size: 1em;
+}

@@ -1,0 +1,27 @@
+
+
+.languageItem {
+  margin-bottom: 30px;
+}
+
+.languageItem .head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.languageItem strong {
+  font-size: 13px;
+  color: var(--font-color-light-3);
+}
+
+.languageItem span {
+  font-size: 11px;
+  color: var(--font-color-dark-6);
+}
+
+@media (min-width: 992px) {
+  .languagesSection {
+    padding-right: 60px;
+  }
+}

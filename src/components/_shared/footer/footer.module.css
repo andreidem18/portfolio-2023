@@ -1,0 +1,35 @@
+.footer {
+  background: var(--surface-light-6);
+  border-top: 2px solid var(--surface-light);
+  padding: 15px 45px;
+}
+
+.socialDataList {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: var(--font-color-light-3);
+  opacity: .6;
+  font-size: .81em;
+  margin: 12px 0;
+}
+
+.copyright {
+  margin-bottom: 12px;
+  color: var(--font-color-light-3);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .copyright {
+    margin-bottom: 0;
+  }
+  .socialDataList {
+    margin: 0;
+  }
+}

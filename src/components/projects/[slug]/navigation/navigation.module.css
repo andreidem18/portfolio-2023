@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.navigation .arrows {
+  display: flex;
+  gap: 4px;
+}
+
+.navigation button {
+  border: none;
+  border-radius: 5px;
+  color: var(--font-color-dark);
+  box-shadow: none;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+}
+
+.navigation button * {
+  color: inherit;
+  font-size: inherit;
+}

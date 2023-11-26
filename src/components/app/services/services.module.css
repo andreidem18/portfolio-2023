@@ -1,0 +1,36 @@
+.services {
+  padding-bottom: 30px;
+}
+
+.servicesList {
+  margin-top: 30px;
+}
+
+.serviceBlock {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.serviceIcon {
+  color: var(--primary);
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.serviceIcon * {
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.serviceText strong {
+  display: block;
+  font-size: 1.15em;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.serviceText p {
+  font-size: .9em;
+}

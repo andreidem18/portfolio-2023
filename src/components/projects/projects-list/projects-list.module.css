@@ -1,0 +1,86 @@
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1em;
+}
+
+.projectCardContainer {
+  position: relative;
+  aspect-ratio: 15/9;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.text {
+  background: #222;
+  color: #d5d5d5;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+
+.projectCardContainer .projectName {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 9;
+  font-size: .88em;
+}
+
+.projectCardContainer img {
+  transition: .4s;
+  object-fit: cover;
+}
+
+.projectCardContainer:hover img {
+  scale: 1.1;
+}
+
+.projectCardContainer .details {
+  background: linear-gradient(0deg, rgba(9,9,9,0.47111344537815125) 0%, rgba(255,255,255,0) 100%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  opacity: 0;
+  transition: .4s;
+}
+
+.projectCardContainer:hover .details {
+  opacity: 1;
+}
+
+.projectCardContainer .details .projectType {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: .7em;
+}
+
+.projectCardContainer .details .icon {
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: var(--primary);
+}  
+
+.projectCardContainer .details .icon * { 
+  font-size: inherit; 
+  color: inherit;
+}
+
+@media (min-width: 480px) {
+  .projectsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .projectsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

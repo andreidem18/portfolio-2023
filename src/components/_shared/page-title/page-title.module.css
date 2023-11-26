@@ -1,0 +1,45 @@
+.pageTitle {
+  padding: 30px 40px;
+  /* margin-right: -40px;
+  margin-left: -40px; */
+  margin-bottom: 40px;
+  background-color: var(--surface-light-6);
+  border-top: 2px solid var(--surface-light);
+  border-bottom: 2px solid var(--surface-light);
+}
+
+.pageTitle h1 {
+  font-size: 36px;
+  line-height: 2.8rem;
+  font-weight: 600;
+  color: var(--font-color-light);
+}
+
+.pageSubtitle h4 {
+  color: var(--font-color-dark);
+  font-weight: 400;
+  font-size: .9em;
+}
+
+@media (min-width: 992px) {
+  .pageTitle {
+    /* margin-right: -70px;
+    margin-left: -70px; */
+    padding: 65px 70px;
+    position: relative;
+  }
+
+  .pageTitle h1 {
+    font-size: 44px;
+  }
+
+  .pageSubtitle {
+    position: absolute;
+    right: 70px;
+    top: 0;
+  }
+
+  .pageSubtitle h4 {
+    margin: 1.33em 0;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  border: 2px solid var(--surface-light-3);
+  height: 12px;
+  border-radius: 8px;
+  position: relative;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.percentaje {
+  width: 50%;
+  height: 100%;
+  background: var(--primary);
+  border-radius: 9px;
+}

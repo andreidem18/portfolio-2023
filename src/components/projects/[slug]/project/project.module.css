@@ -1,0 +1,13 @@
+.projectTitle {
+  margin-bottom: 40px;
+}
+
+.imageSlice {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.imageSlice img {
+  object-fit: cover;
+}
