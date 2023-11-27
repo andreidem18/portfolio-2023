@@ -9,13 +9,13 @@ interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'John Doe',
-    profession: 'Frontend Developer',
-    testimonial: 'testimonialJohn',
-    photoUrl: '/testimonials-profiles/example.jpg',
+    name: 'Brayan Muñoz',
+    profession: 'Web Developer',
+    testimonial: 'testimonialBrayan',
+    photoUrl: '/testimonials-profiles/brayan-munoz.jpg',
   },
   {
-    name: 'John Doe II',
+    name: 'John Doe',
     profession: 'Frontend Developer',
     testimonial: 'testimonialJohn',
     photoUrl: '/testimonials-profiles/example.jpg',

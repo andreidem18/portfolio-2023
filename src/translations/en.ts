@@ -43,6 +43,11 @@ const enTranslations: Keys = {
   testimonialJohn: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio 
     vel itaque consequuntur sit esse eaque repudiandae, praesentium quos magnam sunt 
     provident id, deserunt nihil nam, incidunt vero molestias facere a!`,
+  testimonialBrayan: ` Working with Andrés has undoubtedly been one of the best 
+    experiences. I never considered him just a colleague; rather, he has always been a 
+    friend who was ready to help and share his knowledge with all the professionals I have 
+    worked with. Andrés is one of the best individuals I have encountered; he has 
+    consistently been more of a person than a professional.`,
 
 
   // experience

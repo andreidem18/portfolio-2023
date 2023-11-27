@@ -27,6 +27,7 @@ export interface Keys {
 
   testimonialsTitle: string;
   testimonialJohn: string;
+  testimonialBrayan: string;
 
   // experience
   resumeTitle: string;
