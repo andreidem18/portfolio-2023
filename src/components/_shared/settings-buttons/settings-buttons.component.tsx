@@ -1,12 +1,7 @@
 'use client'
 
-import React, { useState } from 'react'
-import styles from './settings-buttons.module.css';
-import { 
-  Settings as SettingsIcon, 
-  Language as LanguageIcon, 
-  Contrast as ContractIcon,
-} from '@mui/icons-material';
+import React from 'react'
+import { Settings as SettingsIcon } from '@mui/icons-material';
 import { Keys } from '@/translations/Keys';
 import useTranslate from '@/translations/useTranslate';
 import { Fab, Action } from 'react-tiny-fab';
@@ -51,7 +46,6 @@ const SettingsButtons = () => {
   ]
 
   const translate = useTranslate();
-  if (typeof window === "undefined") return <></>
 
   return (
     <Fab icon={<SettingsIcon />} >

@@ -7,9 +7,9 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import Navbar from '@/components/_shared/navbar/navbar.component'
 import Footer from '@/components/_shared/footer/footer.component'
-import SettingsButtons from '@/components/_shared/settings-buttons/settings-buttons.component'
-// import { AnimatePresence } from 'framer-motion';
+// import SettingsButtons from '@/components/_shared/settings-buttons/settings-buttons.component'
 import ThemeProvider from '@/components/_shared/theme-provider/theme-provider.component'
+import dynamic from 'next/dynamic'
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700", "800", "900"],
@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   title: 'Andrés Mendoza',
   description: 'Andrés Mendoza\'s web developer portfolio',
 }
+
+const SettingsButtons = dynamic(() => import('@/components/_shared/settings-buttons/settings-buttons.component'), { ssr: false })
 
 export default function RootLayout({
   children,
@@ -33,11 +35,9 @@ export default function RootLayout({
         <body className={poppins.className}>
           <ThemeProvider>
             <div className="main-container">
-              {/* <AnimatePresence> */}
-                <Navbar key='navbar' />
-                {children}
-                <Footer key='footer' />
-              {/* </AnimatePresence> */}
+              <Navbar key='navbar' />
+              {children}
+              <Footer key='footer' />
             </div>
           </ThemeProvider>
           <SettingsButtons />
