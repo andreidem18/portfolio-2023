@@ -48,6 +48,16 @@ const esTranslations: Keys = {
     que siempre estuvo dispuesto ha ayudar y compartir sus conocimientos de todos los 
     profesionales con los que he trabajado, Andrés es uno de los mejores con los que 
     me he topado, siempre fue más persona que profesional. `,
+  testimonialJesus: `Andrés es más que un amigo, es un colega excepcional que conocí 
+    durante el bootcamp en Academlo. Desde competir por el primer puesto en clase hasta 
+    trabajar juntos en la misma empresa que nos vio crecer, ha demostrado ser no solo un 
+    brillante profesional en el desarrollo web full stack, sino también un ser humano 
+    increíblemente amable y siempre dispuesto a brindar apoyo. Su combinación de 
+    habilidades técnicas y calidad humana lo convierten en un compañero invaluable.`,
+  testimonialGabriel: `Andrés no solo cuenta con habilidades técnicas impresionantes 
+    como desarrollador, sino que también se destaca como un excelente líder. Su 
+    habilidad para abordar desafíos y liderar con el ejemplo ha dejado una huella muy 
+    positiva en mí y en todo el equipo.`,
 
 
   // experience

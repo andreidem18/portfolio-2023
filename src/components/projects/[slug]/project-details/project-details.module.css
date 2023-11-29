@@ -27,6 +27,8 @@
 .generalInformation a {
   color: var(--font-color-dark);
   text-decoration: underline;
+  word-wrap: break-word;
+  min-width: 1%;
 }
 
 .techList {
