@@ -16,7 +16,7 @@
 }
 
 .timelineItem::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   height: 100%;
@@ -27,7 +27,7 @@
 }
 
 .timelineItem::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   height: 1px;
@@ -72,5 +72,5 @@
 .timelineItem p {
   color: var(--font-color-dark-3);
   line-height: 1.75em;
-  font-size: .8em;
+  font-size: 0.8em;
 }

@@ -1,70 +1,72 @@
 .testimonialModal {
-    width: 90%;
-    max-width: 600px;
-    padding: 2rem !important;
+  width: 90%;
+  max-width: 600px;
+  padding: 2rem !important;
 }
 
 .testimonial {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .testimonialImage {
-    border-radius: 50%;
-    border: 10px solid var(--photo-border);
-    box-shadow: var(--photo-shadow);
-    object-fit: cover;
-    margin-bottom: 1rem;
+  border-radius: 50%;
+  border: 10px solid var(--photo-border);
+  box-shadow: var(--photo-shadow);
+  object-fit: cover;
+  margin-bottom: 1rem;
 }
 
 .testimonialPhrase {
-    font-size: .9rem;
-    display: block;
-    margin-bottom: 1rem;
-    text-align: center;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .profession {
-    font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-.quoteUp, .quoteDown {
-    position: absolute;
-    color: var(--font-color-dark-4);
-    line-height: 0;
+.quoteUp,
+.quoteDown {
+  position: absolute;
+  color: var(--font-color-dark-4);
+  line-height: 0;
 }
 
-.quoteUp *, .quoteDown * {
-    color: inherit;
-    font-size: inherit;
+.quoteUp *,
+.quoteDown * {
+  color: inherit;
+  font-size: inherit;
 }
 
 .quoteUp {
-    transform: rotate(180deg);
-    top: 0;
-    left: 0;
-    font-size: 50px;
+  transform: rotate(180deg);
+  top: 0;
+  left: 0;
+  font-size: 50px;
 }
 
 .quoteDown {
-    bottom: 0;
-    right: 0;
-    font-size: 40px;
+  bottom: 0;
+  right: 0;
+  font-size: 40px;
 }
 
 .buttonClose {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: none;
-    background: none;
-    box-shadow: none;
-    padding: 0;
-    font-size: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  font-size: 40px;
 }
 
 .buttonClose * {
-    font-size: inherit;
+  font-size: inherit;
 }

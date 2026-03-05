@@ -1,10 +1,10 @@
-import React from 'react'
-import styles from './squares-background.module.css';
+import React from "react";
+import styles from "./squares-background.module.css";
 
 const SquaresBackground = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      { children }
+      {children}
       <div className={styles.cube}></div>
       <div className={styles.cube}></div>
       <div className={styles.cube}></div>
@@ -12,7 +12,7 @@ const SquaresBackground = ({ children }: { children: React.ReactNode }) => {
       <div className={styles.cube}></div>
       <div className={styles.cube}></div>
     </>
-  )
-}
+  );
+};
 
-export default SquaresBackground
+export default SquaresBackground;

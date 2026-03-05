@@ -1,4 +1,4 @@
-import { Keys } from '@/translations/Keys';
+import { Keys } from "@/translations/Keys";
 
 interface CurriculumData {
   title: keyof Keys;
@@ -20,7 +20,7 @@ export const educationData: CurriculumData[] = [
     place: "UNIR",
     description: "eduComputersEngineeringDescription",
   },
-]
+];
 
 export const experienceData: CurriculumData[] = [
   {
@@ -41,4 +41,4 @@ export const experienceData: CurriculumData[] = [
     place: "Finaipro",
     description: "exFinaiproDescription",
   },
-]
+];

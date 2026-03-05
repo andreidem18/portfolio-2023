@@ -12,7 +12,7 @@
 }
 
 .homePhoto {
-  background-image: url('/my-picture.jpg');
+  background-image: url("/my-picture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;

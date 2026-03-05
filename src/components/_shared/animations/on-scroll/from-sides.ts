@@ -1,4 +1,4 @@
-import { AnimationProps, HTMLMotionProps } from 'framer-motion';
+import { AnimationProps, HTMLMotionProps } from "framer-motion";
 
 export const fromLeftAnimationScroll: HTMLMotionProps<"div"> = {
   initial: {
@@ -6,16 +6,16 @@ export const fromLeftAnimationScroll: HTMLMotionProps<"div"> = {
     opacity: 0,
   },
   whileInView: {
-    x: 0, 
+    x: 0,
     opacity: 1,
   },
   viewport: {
-    margin: "-100px"
+    margin: "-100px",
   },
   transition: {
-    duration: .5,
+    duration: 0.5,
   },
-}
+};
 
 export const fromRightAnimationScroll: HTMLMotionProps<"div"> = {
   initial: {
@@ -23,13 +23,13 @@ export const fromRightAnimationScroll: HTMLMotionProps<"div"> = {
     opacity: 0,
   },
   whileInView: {
-    x: 0, 
+    x: 0,
     opacity: 1,
   },
   viewport: {
-    margin: "-100px"
+    margin: "-100px",
   },
   transition: {
-    duration: .5,
+    duration: 0.5,
   },
-}
+};

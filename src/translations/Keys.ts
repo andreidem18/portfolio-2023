@@ -57,15 +57,12 @@ export interface Keys {
   english: string;
   englishLevel: string;
 
-
   // projects
   projectsTitle: string;
   projectsSubtitle: string;
   jewelryEcommerceDescription: string;
   toursAppDescription: string;
   heroesAppDescription: string;
-
-
 
   // contact
   contactTitle: string;

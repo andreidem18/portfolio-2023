@@ -1,14 +1,14 @@
-'use client'
+"use client";
 
-import React from 'react'
-import { Settings as SettingsIcon } from '@mui/icons-material';
-import { Keys } from '@/translations/Keys';
-import useTranslate from '@/translations/useTranslate';
-import { Fab, Action } from 'react-tiny-fab';
-import 'react-tiny-fab/dist/styles.css';
-import Image from 'next/image';
-import { useAppDispatch } from '@/redux/hooks';
-import { setLanguaje, setTheme } from '@/redux/generalSlices/appSlice';
+import React from "react";
+import { Settings as SettingsIcon } from "@mui/icons-material";
+import { Keys } from "@/translations/Keys";
+import useTranslate from "@/translations/useTranslate";
+import { Fab, Action } from "react-tiny-fab";
+import "react-tiny-fab/dist/styles.css";
+import Image from "next/image";
+import { useAppDispatch } from "@/redux/hooks";
+import { setLanguaje, setTheme } from "@/redux/generalSlices/appSlice";
 
 interface Option {
   label: keyof Keys;
@@ -17,50 +17,72 @@ interface Option {
   action?: () => void;
 }
 
-
 const SettingsButtonsContent = () => {
-
   const dispatch = useAppDispatch();
 
   const options: Option[] = [
     {
       label: "settingLanguageEs",
-      icon: <Image src={'/icons/spain-flag.png'} alt="spain icon" width={30} height={30}/>,
-      action: () => dispatch(setLanguaje('es'))
+      icon: (
+        <Image
+          src={"/icons/spain-flag.png"}
+          alt="spain icon"
+          width={30}
+          height={30}
+        />
+      ),
+      action: () => dispatch(setLanguaje("es")),
     },
     {
       label: "settingLanguageEn",
-      icon: <Image src={'/icons/us-flag.png'} alt="us icon" width={30} height={30}/>,
-      action: () => dispatch(setLanguaje('en'))
+      icon: (
+        <Image
+          src={"/icons/us-flag.png"}
+          alt="us icon"
+          width={30}
+          height={30}
+        />
+      ),
+      action: () => dispatch(setLanguaje("en")),
     },
     {
       label: "settingThemeDark",
-      icon: <Image src={'/icons/moon.png'} alt="spain icon" width={30} height={30}/>,
-      action: () => dispatch(setTheme('dark')),
+      icon: (
+        <Image
+          src={"/icons/moon.png"}
+          alt="spain icon"
+          width={30}
+          height={30}
+        />
+      ),
+      action: () => dispatch(setTheme("dark")),
     },
     {
       label: "settingThemeLight",
-      icon: <Image src={'/icons/sun.png'} alt="spain icon" width={30} height={30}/>,
-      action: () => dispatch(setTheme('light')),
+      icon: (
+        <Image src={"/icons/sun.png"} alt="spain icon" width={30} height={30} />
+      ),
+      action: () => dispatch(setTheme("light")),
     },
-  ]
+  ];
 
   const translate = useTranslate();
 
-  if (typeof window === "undefined") return <></>
+  if (typeof window === "undefined") return <></>;
 
   return (
-    <Fab icon={<SettingsIcon />} >
-      {options.map(option => (
-        <Action 
-          text={translate(option.label)} 
-          key={option.label} 
-          onClick={option.action}>
+    <Fab icon={<SettingsIcon />}>
+      {options.map((option) => (
+        <Action
+          text={translate(option.label)}
+          key={option.label}
+          onClick={option.action}
+        >
           {option.icon}
         </Action>
       ))}
     </Fab>
-  )
-}
+  );
+};
 
-export default SettingsButtonsContent
+export default SettingsButtonsContent;

@@ -13,10 +13,8 @@
 
 .dot {
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
-
-
 
 .dotsBelow.dotsContainer {
   justify-content: center;
@@ -37,9 +35,6 @@
   background: var(--primary);
   width: 30px;
 }
-
-
-
 
 .dotsInside.dotsContainer {
   position: absolute;
@@ -64,10 +59,9 @@
   background: #9e9e9e;
 }
 
-
 .arrows button {
   color: #9e9e9e;
-  background: rgba(255, 255, 255, .55);
+  background: rgba(255, 255, 255, 0.55);
   position: absolute;
   width: 44px;
   height: 44px;

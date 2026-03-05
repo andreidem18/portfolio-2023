@@ -12,7 +12,7 @@
 
 .webDeveloper {
   color: var(--font-color-dark);
-  font-size: .87em;
+  font-size: 0.87em;
   margin-bottom: 10px;
   display: block;
 }
@@ -27,7 +27,7 @@
 .homeButtons {
   margin-top: 27px;
   display: flex;
-  gap: .4rem;
+  gap: 0.4rem;
 }
 
 .socialList {
@@ -43,7 +43,7 @@
   background: var(--surface);
   border: 2px solid var(--font-color);
   font-size: 24px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .socialItem a:hover {

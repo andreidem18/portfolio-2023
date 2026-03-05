@@ -7,7 +7,7 @@
 }
 
 .blockTitle h2::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -16,7 +16,7 @@
 }
 
 .blockTitle h2::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 35px;
   bottom: 0;

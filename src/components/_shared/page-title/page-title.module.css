@@ -18,7 +18,7 @@
 .pageSubtitle h4 {
   color: var(--font-color-dark);
   font-weight: 400;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 @media (min-width: 992px) {

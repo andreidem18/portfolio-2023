@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from './page-title.module.css';
+import React from "react";
+import styles from "./page-title.module.css";
 
 interface PageTitleParams {
   title: string;
@@ -14,7 +14,7 @@ const PageTitle = ({ title, subtitle }: PageTitleParams) => {
         <h4>{subtitle}</h4>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PageTitle
+export default PageTitle;

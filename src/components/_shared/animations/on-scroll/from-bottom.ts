@@ -1,14 +1,13 @@
-import { HTMLMotionProps } from 'framer-motion';
+import { HTMLMotionProps } from "framer-motion";
 
 interface FromBottomAnimationProps {
-  delay?: number
+  delay?: number;
 }
 
 export const fromBottomAnimation = (
-  params?: FromBottomAnimationProps
-): HTMLMotionProps<'div'> & HTMLMotionProps<'li'> => {
-
-  const { delay=0 } = params || {};
+  params?: FromBottomAnimationProps,
+): HTMLMotionProps<"div"> & HTMLMotionProps<"li"> => {
+  const { delay = 0 } = params || {};
 
   return {
     initial: {
@@ -20,11 +19,11 @@ export const fromBottomAnimation = (
       opacity: 1,
     },
     transition: {
-      duration: .5,
-      delay
+      duration: 0.5,
+      delay,
     },
     viewport: {
-      margin: "200px"
-    }
-  }
-}
+      margin: "200px",
+    },
+  };
+};

@@ -1,12 +1,13 @@
-import { HTMLMotionProps } from 'framer-motion';
+import { HTMLMotionProps } from "framer-motion";
 
 interface ItemAnimationProps {
-  delay?: number
+  delay?: number;
 }
 
-export const itemAnimation = (props?: ItemAnimationProps): HTMLMotionProps<'li'> => {
-
-  const { delay=0 } = props || {}
+export const itemAnimation = (
+  props?: ItemAnimationProps,
+): HTMLMotionProps<"li"> => {
+  const { delay = 0 } = props || {};
 
   return {
     initial: {
@@ -23,8 +24,8 @@ export const itemAnimation = (props?: ItemAnimationProps): HTMLMotionProps<'li'>
     },
     transition: {
       delay,
-      duration: .2
+      duration: 0.2,
     },
     layout: true,
-  }
-}
+  };
+};

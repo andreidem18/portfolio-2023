@@ -20,7 +20,8 @@
   gap: 8px;
 }
 
-.generalInformation .icon, .generalInformation .icon * {
+.generalInformation .icon,
+.generalInformation .icon * {
   color: var(--primary);
 }
 
@@ -42,7 +43,5 @@
   color: var(--font-color-light-2);
   padding: 2px 7px;
   border-radius: 3px;
-  font-size: .8em;
+  font-size: 0.8em;
 }
-
-

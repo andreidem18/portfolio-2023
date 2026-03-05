@@ -34,14 +34,13 @@
 .title {
   font-weight: 400;
   font-size: 1.8em;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
 
 .popup button {
   width: 100%;
   display: block;
 }
-
 
 .popup.error .icon {
   background: var(--danger);

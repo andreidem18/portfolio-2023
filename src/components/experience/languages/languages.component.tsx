@@ -1,38 +1,37 @@
-import BlockTitle from '@/components/_shared/block-title/block-title.component'
-import React from 'react'
-import styles from './languages.module.css';
-import { Keys } from '@/translations/Keys';
-import ProgressBar from '../progress-bar/progress-bar.component';
-import useTranslate from '@/translations/useTranslate';
+import BlockTitle from "@/components/_shared/block-title/block-title.component";
+import React from "react";
+import styles from "./languages.module.css";
+import { Keys } from "@/translations/Keys";
+import ProgressBar from "../progress-bar/progress-bar.component";
+import useTranslate from "@/translations/useTranslate";
 
 interface LanguageData {
-  name: keyof Keys,
-  level: keyof Keys,
-  percentaje: number,
+  name: keyof Keys;
+  level: keyof Keys;
+  percentaje: number;
 }
 
 const languageData: LanguageData[] = [
   {
     name: "spanish",
-    level: 'spanishLevel',
-    percentaje: 100
+    level: "spanishLevel",
+    percentaje: 100,
   },
   {
     name: "english",
-    level: 'englishLevel',
-    percentaje: 90
+    level: "englishLevel",
+    percentaje: 90,
   },
-]
+];
 
 const Languages = () => {
-
   const translate = useTranslate();
 
   return (
     <div className={styles.languagesSection}>
-      <BlockTitle title={translate('languagesTitle')} className='mb-3'/>
+      <BlockTitle title={translate("languagesTitle")} className="mb-3" />
       <ul>
-        {languageData.map(language => (
+        {languageData.map((language) => (
           <li key={language.name} className={styles.languageItem}>
             <div className={styles.head}>
               <strong>{translate(language.name)}</strong>
@@ -43,7 +42,7 @@ const Languages = () => {
         ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Languages
+export default Languages;

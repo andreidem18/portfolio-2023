@@ -1,26 +1,24 @@
-import React, { forwardRef } from 'react'
-import styles from './input.module.css'
+import React, { forwardRef } from "react";
+import styles from "./input.module.css";
 
-interface InputParams extends React.InputHTMLAttributes<HTMLInputElement>{
+interface InputParams extends React.InputHTMLAttributes<HTMLInputElement> {
   error?: string;
 }
 
-const Input = forwardRef<HTMLInputElement, InputParams>(
-  function Input({ error, ...props }: InputParams, ref) {
+const Input = forwardRef<HTMLInputElement, InputParams>(function Input(
+  { error, ...props }: InputParams,
+  ref,
+) {
   return (
     <div className={styles.inputGroup}>
       <input
         {...props}
-        className={`${props.className} ${error ? styles.error : ''}`}
+        className={`${props.className} ${error ? styles.error : ""}`}
         ref={ref}
       />
-      {error && (
-        <div className={styles.helpBlock}>
-          {error}
-        </div>
-      )}
+      {error && <div className={styles.helpBlock}>{error}</div>}
     </div>
-  )
-})
+  );
+});
 
-export default Input
+export default Input;

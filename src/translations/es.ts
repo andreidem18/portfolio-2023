@@ -1,4 +1,4 @@
-import { Keys } from './Keys';
+import { Keys } from "./Keys";
 
 const esTranslations: Keys = {
   test: "Hola Mundo",
@@ -13,12 +13,12 @@ const esTranslations: Keys = {
   settingThemeLight: "Claro",
 
   // nav
-  navExperience: 'Currículum',
-  navProjects: 'Proyectos',
-  navContact: 'Contáctame',
+  navExperience: "Currículum",
+  navProjects: "Proyectos",
+  navContact: "Contáctame",
 
   // home
-  homeWebDeveloper: 'Desarrollador web',
+  homeWebDeveloper: "Desarrollador web",
   homeDescription: `Desarrollador web experimentado con pasión por crear 
   soluciones digitales efectivas y eficientes. Comprometido con la excelencia 
   en la programación y la entrega de proyectos de alta calidad`,
@@ -39,7 +39,7 @@ const esTranslations: Keys = {
     resultados confiables para impulsar los proyectos digitales de los clientes.
   `,
 
-  testimonialsTitle: 'Testimonios',
+  testimonialsTitle: "Testimonios",
   testimonialJohn: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio 
     vel itaque consequuntur sit esse eaque repudiandae, praesentium quos magnam sunt 
     provident id, deserunt nihil nam, incidunt vero molestias facere a!`,
@@ -59,10 +59,9 @@ const esTranslations: Keys = {
     habilidad para abordar desafíos y liderar con el ejemplo ha dejado una huella muy 
     positiva en mí y en todo el equipo.`,
 
-
   // experience
-  resumeTitle: 'Currículum',
-  experienceSubtitle: '+4 Años de Experiencia',
+  resumeTitle: "Currículum",
+  experienceSubtitle: "+4 Años de Experiencia",
 
   educationTitle: "Educacion",
   eduWebDevelopment: "Desarrollo de aplicaciones Full Stack",
@@ -123,7 +122,6 @@ const esTranslations: Keys = {
     buscador de comics, y con opciones para guardar comics en favoritos
   `,
 
-
   // contact
   contactTitle: `Contáctame`,
   contactSubtitle: `Quedemos Comunicados`,
@@ -136,6 +134,6 @@ const esTranslations: Keys = {
   contactFormSendButton: `Enviar mensaje`,
   contactMessageSent: `¡Mensaje enviado!`,
   contactMessageSentMessage: `Gracias por contactarme, responderé lo antes posible.`,
-}
+};
 
 export default esTranslations;
