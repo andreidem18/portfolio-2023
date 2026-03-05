@@ -58,6 +58,17 @@ const esTranslations: Keys = {
     como desarrollador, sino que también se destaca como un excelente líder. Su 
     habilidad para abordar desafíos y liderar con el ejemplo ha dejado una huella muy 
     positiva en mí y en todo el equipo.`,
+  testimonialJorge: `
+    Tuve la oportunidad de trabajar con Andrés en el equipo de desarrollo web y puedo decir con total confianza que es un profesional integral.
+
+    Como persona, destaca por su energía positiva, su actitud colaborativa y su capacidad para mantener el enfoque incluso en momentos de presión. Esa combinación genera un ambiente de trabajo sano y productivo.
+
+    En lo profesional, se comunica con claridad, hace las preguntas correctas y busca comprender el contexto antes de ejecutar. No se limita a desarrollar funcionalidades: entiende la lógica detrás de cada decisión.
+
+    Algo que valoro especialmente es su sensibilidad hacia la experiencia de usuario. Andrés no solo piensa en código; entiende la importancia del UX y cómo sus decisiones técnicas impactan directamente en el usuario final. Esa visión lo convierte en un full stack con criterio, no solo en ejecución.
+
+    Es, sin duda, un perfil que suma tanto en lo técnico como en lo humano.
+  `,
 
   // experience
   resumeTitle: "Currículum",

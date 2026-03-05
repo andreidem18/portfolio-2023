@@ -9,6 +9,12 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
+    name: "Jorge Rivera",
+    profession: "Diseñador",
+    testimonial: "testimonialJorge",
+    photoUrl: "/testimonials-profiles/jorge-rivera.jpg",
+  },
+  {
     name: "Brayan Muñoz",
     profession: "Web Developer",
     testimonial: "testimonialBrayan",

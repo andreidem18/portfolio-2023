@@ -58,6 +58,17 @@ const enTranslations: Keys = {
     developer but also stands out as an excellent leader. His ability to tackle 
     challenges and lead by example has left a very positive impact on me and the entire 
     team.`,
+  testimonialJorge: `
+    I had the opportunity to work with Andrés on the web development team, and I can say with complete confidence that he is a well-rounded professional.
+
+    As a person, he stands out for his positive energy, collaborative attitude, and his ability to stay focused even under pressure. This combination helps create a healthy and productive work environment.
+
+    Professionally, he communicates clearly, asks the right questions, and seeks to understand the context before executing. He doesn’t limit himself to simply developing features; he understands the reasoning behind each decision.
+
+    One thing I especially value is his sensitivity toward user experience. Andrés doesn’t just think about code; he understands the importance of UX and how his technical decisions directly impact the end user. This perspective makes him a thoughtful full-stack developer, not just someone focused on execution.
+
+    He is, without a doubt, someone who adds value both technically and personally.
+  `,
 
   // experience
   resumeTitle: "Resume",
