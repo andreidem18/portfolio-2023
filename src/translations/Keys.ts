@@ -46,6 +46,8 @@ export interface Keys {
   exAISDDescription: string;
   exAcademlo: string;
   exAcademloDescription: string;
+  exFinaipro: string;
+  exFinaiproDescription: string;
 
   myTechnologiesTitle: string;
 

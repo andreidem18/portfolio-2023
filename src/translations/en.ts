@@ -1,4 +1,4 @@
-import { Keys } from './Keys';
+import { Keys } from "./Keys";
 
 const enTranslations: Keys = {
   test: "Hello world",
@@ -13,12 +13,12 @@ const enTranslations: Keys = {
 
   // navbar
   navAboutMe: "About me",
-  navExperience: 'Resume',
-  navProjects: 'My projects',
-  navContact: 'Contact me',
+  navExperience: "Resume",
+  navProjects: "My projects",
+  navContact: "Contact me",
 
   // home
-  homeWebDeveloper: 'Web developer',
+  homeWebDeveloper: "Web developer",
   homeDescription: `Experienced web developer with a passion for 
     creating effective and efficient digital solutions. Committed to 
     programming excellence and delivering high-quality projects that 
@@ -39,7 +39,7 @@ const enTranslations: Keys = {
     using services such as AWS or Digital Ocean, ensuring efficient processes and reliable 
     results to boost clients' digital projects.
   `,
-  testimonialsTitle: 'Testimonials',
+  testimonialsTitle: "Testimonials",
   testimonialJohn: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio 
     vel itaque consequuntur sit esse eaque repudiandae, praesentium quos magnam sunt 
     provident id, deserunt nihil nam, incidunt vero molestias facere a!`,
@@ -59,10 +59,9 @@ const enTranslations: Keys = {
     challenges and lead by example has left a very positive impact on me and the entire 
     team.`,
 
-
   // experience
-  resumeTitle: 'Resume',
-  experienceSubtitle: '2 Years of Experience',
+  resumeTitle: "Resume",
+  experienceSubtitle: "+4 Years of Experience",
 
   educationTitle: "Education",
   eduWebDevelopment: "Full Stack Development bootcamp",
@@ -84,6 +83,11 @@ const enTranslations: Keys = {
   exAcademloDescription: `Bootcamp where I studied. Later on, due to my excellent 
     performance, I was hired to create and maintain the company's internal software. I 
     also worked as an instructor, teaching live classes on React, Node, Express, and SQL.`,
+  exFinaipro: "Web Developer",
+  exFinaiproDescription: `Fintech specialized in AI-driven investment solutions. I developed APIs using Node.js,
+  performed SQL queries on large financial datasets, and built applications with Next.js.
+  I collaborated on a project that used AI models to predict stock prices, contributing
+  to research and analysis tools that support investment decision-making.`,
 
   myTechnologiesTitle: `My technologies`,
 
@@ -112,7 +116,6 @@ const enTranslations: Keys = {
     in favorites.
   `,
 
-
   // contact
   contactTitle: `Contact`,
   contactSubtitle: `Get in Touch`,
@@ -125,6 +128,6 @@ const enTranslations: Keys = {
   contactFormSendButton: `Send message`,
   contactMessageSent: `Message sent!`,
   contactMessageSentMessage: `Thanks for getting in touch with me. I'm going to contact you soon`,
-}
+};
 
 export default enTranslations;

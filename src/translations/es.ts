@@ -62,7 +62,7 @@ const esTranslations: Keys = {
 
   // experience
   resumeTitle: 'Currículum',
-  experienceSubtitle: '2 Años de Experiencia',
+  experienceSubtitle: '+4 Años de Experiencia',
 
   educationTitle: "Educacion",
   eduWebDevelopment: "Desarrollo de aplicaciones Full Stack",
@@ -87,6 +87,14 @@ const esTranslations: Keys = {
     Bootcamp donde estudié. Tiempo después, debido a mi buen rendimiento, me contrataron para
     crear y mantener software interno de la compañía. También trabajé como docente, 
     impartiendo clases en vivo sobre React, Node, Express y SQL.
+  `,
+  exFinaipro: `Web Developer`,
+  exFinaiproDescription: `
+    Fintech especializada en soluciones de inversión basadas en inteligencia artificial.
+    Desarrollé APIs con Node.js, realicé consultas SQL sobre grandes volúmenes de datos
+    financieros y construí aplicaciones con Next.js. Colaboré en un proyecto que utilizaba
+    modelos de IA para la predicción de precios de acciones, contribuyendo a herramientas
+    de análisis e investigación para la toma de decisiones de inversión.
   `,
 
   myTechnologiesTitle: `Mis tecnologías`,

@@ -34,5 +34,11 @@ export const experienceData: CurriculumData[] = [
     period: "2022 - 2023",
     place: "Academlo",
     description: "exAcademloDescription",
-  }
+  },
+  {
+    title: "exFinaipro",
+    period: "2024 - 2026",
+    place: "Finaipro",
+    description: "exFinaiproDescription",
+  },
 ]
