@@ -18,7 +18,7 @@ interface Option {
 }
 
 
-const SettingsButtons = () => {
+const SettingsButtonsContent = () => {
 
   const dispatch = useAppDispatch();
 
@@ -47,6 +47,8 @@ const SettingsButtons = () => {
 
   const translate = useTranslate();
 
+  if (typeof window === "undefined") return <></>
+
   return (
     <Fab icon={<SettingsIcon />} >
       {options.map(option => (
@@ -61,4 +63,4 @@ const SettingsButtons = () => {
   )
 }
 
-export default SettingsButtons
+export default SettingsButtonsContent
