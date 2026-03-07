@@ -88,25 +88,4 @@ export const projectsData: Project[] = [
       "/projects-images/tours-app/admin-locations.jpg",
     ],
   },
-  {
-    name: "Marvel App",
-    slug: "heroes-app",
-    type: "Frontend",
-    url: "https://marvel.andrescode.com",
-    description: "heroesAppDescription",
-    date: new Date("2023-07-30"),
-    github: [
-      {
-        name: "GitHub",
-        url: "https://github.com/andreidem18/marvel-project/tree/main",
-      },
-    ],
-    technologies: ["Angular"],
-    tags: ["Angular", "Frontend"],
-    images: [
-      "/projects-images/heroes-app/home.jpg",
-      "/projects-images/heroes-app/comic.jpg",
-      "/projects-images/heroes-app/comic-2.jpg",
-    ],
-  },
 ];
