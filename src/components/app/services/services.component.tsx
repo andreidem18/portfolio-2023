@@ -3,7 +3,7 @@ import useTranslate from "@/translations/useTranslate";
 import React from "react";
 import styles from "./services.module.css";
 import { fromBottomAnimation } from "@/components/_shared/animations/on-scroll/from-bottom";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { services } from "@/data/services.data";
 
 const Services = () => {

@@ -5,7 +5,7 @@ import styles from "./testimonials.module.css";
 import { Testimonial, testimonials } from "../../../data/testimonials.data";
 import Carousel from "@/components/_shared/carousel/carousel.component";
 import useViewWidth from "@/hooks/useViewWidth";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fromBottomAnimation } from "@/components/_shared/animations/on-scroll/from-bottom";
 import TestimonialItem from "../testimonial-item/testimonial-item.component";
 import TestimonialModal from "../testimonial-modal/testimonial-modal.component";

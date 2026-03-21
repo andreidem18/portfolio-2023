@@ -6,7 +6,7 @@ import useTranslate from "@/translations/useTranslate";
 import Carousel from "@/components/_shared/carousel/carousel.component";
 import Image from "next/image";
 import ProjectDetails from "../project-details/project-details.component";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   fromLeftAnimationScroll,
   fromRightAnimationScroll,

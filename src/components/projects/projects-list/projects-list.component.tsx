@@ -7,7 +7,7 @@ import { RemoveRedEye as RemoveRedEyeIcon } from "@mui/icons-material";
 import { useAppSelector } from "@/redux/hooks";
 import { selectProjects } from "../projects.slice";
 import { useRouter } from "next/navigation";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 import { itemAnimation } from "./projects-list.animations";
 
 const ProjectsList = () => {

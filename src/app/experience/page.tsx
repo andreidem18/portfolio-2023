@@ -7,7 +7,7 @@ import Curriculum from "@/components/experience/curriculum/curriculum.component"
 import TechSphere from "@/components/experience/technologies-sphere/tech-sphere.component";
 import Languages from "@/components/experience/languages/languages.component";
 import PageAnimation from "@/components/_shared/page-animation/page-animation.component";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   fromLeftAnimationScroll,
   fromRightAnimationScroll,

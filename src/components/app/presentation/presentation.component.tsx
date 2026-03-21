@@ -3,7 +3,7 @@ import styles from "./presentation.module.css";
 import useTranslate from "@/translations/useTranslate";
 import HomePhoto from "../home-photo/home-photo.component";
 import SquaresBackground from "../squares-background/squares-background.component";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   fromLeftAnimationScroll,
   fromRightAnimationScroll,

@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "../modal/modal.component";
 import { Check as CheckIcon, Close as CloseIcon } from "@mui/icons-material";
 import styles from "./popup.module.css";
-import { AnimationProps, motion } from "framer-motion";
+import { HTMLMotionProps, motion } from "motion/react";
 
 interface PopupParams {
   title: string;
@@ -46,7 +46,7 @@ const Popup = ({
   );
 };
 
-const iconAnimations: AnimationProps = {
+const iconAnimations: HTMLMotionProps<"div"> = {
   initial: {
     opacity: 0,
     scale: 3,

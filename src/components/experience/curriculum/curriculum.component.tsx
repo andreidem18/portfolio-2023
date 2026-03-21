@@ -3,7 +3,7 @@ import useTranslate from "@/translations/useTranslate";
 import React from "react";
 import styles from "./curriculum.module.css";
 import { educationData, experienceData } from "./curriculumData";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   fromLeftAnimationScroll,
   fromRightAnimationScroll,

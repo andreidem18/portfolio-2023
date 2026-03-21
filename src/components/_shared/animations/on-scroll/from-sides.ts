@@ -1,4 +1,4 @@
-import { AnimationProps, HTMLMotionProps } from "framer-motion";
+import { HTMLMotionProps } from "motion/react";
 
 export const fromLeftAnimationScroll: HTMLMotionProps<"div"> = {
   initial: {

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./modal.module.css";
-import { AnimatePresence, AnimationProps, motion } from "framer-motion";
+import { AnimatePresence, HTMLMotionProps, motion } from "motion/react";
 
 interface ModalParams {
   children: React.ReactNode;
@@ -30,7 +30,7 @@ const Modal = ({ children, className, show, handleClose }: ModalParams) => {
   );
 };
 
-const containerAnimations: AnimationProps = {
+const containerAnimations: HTMLMotionProps<"div"> = {
   initial: {
     opacity: 0,
   },
@@ -42,7 +42,7 @@ const containerAnimations: AnimationProps = {
   },
 };
 
-const modalAnimations: AnimationProps = {
+const modalAnimations: HTMLMotionProps<"div"> = {
   initial: {
     y: -400,
   },

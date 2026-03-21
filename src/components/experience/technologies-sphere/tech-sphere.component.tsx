@@ -1,40 +1,55 @@
-import React from "react";
-import { TagCloud, TagCloudOptions } from "@frank-mayer/react-tag-cloud";
-import styles from "./tech-sphere.module.css";
 import BlockTitle from "@/components/_shared/block-title/block-title.component";
 import useTranslate from "@/translations/useTranslate";
-import useViewWidth from "@/hooks/useViewWidth";
+import { useEffect } from "react";
+import TagCloud, { TagCloudOptions } from "TagCloud";
+
+const container = "#tech-sphere";
+const texts = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Angular",
+  "Node",
+  "Express",
+  "Nest",
+  "SQL",
+  "MongoDB",
+  "Docker",
+  "AWS",
+];
+const options: TagCloudOptions = {
+  radius: 300,
+  maxSpeed: "fast",
+  initSpeed: "fast",
+  keep: true,
+  containerClass: "sphere",
+
+};
 
 const TechSphere = () => {
+
   const translate = useTranslate();
-  const width = useViewWidth();
+
+  // to render wordcloud each time the page is reloaded
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    // TagCloud typings expect an Element[] but this project uses a selector string.
+    // Resolve the selector to elements and cast to satisfy the type checker.
+    const els = Array.from(
+      document.querySelectorAll(container),
+    ) as unknown as Element[];
+    if (els.length === 0) return;
+
+    TagCloud(els, texts, options);
+  }, []);
 
   return (
-    <>
+    <div className="main">
       <BlockTitle title={translate("myTechnologiesTitle")} />
-      <TagCloud
-        options={(w: Window & typeof globalThis): TagCloudOptions => ({
-          radius: width < 568 ? width / 2 - 70 : width / 5,
-          maxSpeed: "fast",
-        })}
-        className={styles.sphere}
-      >
-        {[
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "React",
-          "Angular",
-          "Node",
-          "Express",
-          "Nest",
-          "SQL",
-          "MongoDB",
-          "Docker",
-          "AWS",
-        ]}
-      </TagCloud>
-    </>
+      <span id="tech-sphere" className="sphere"></span>
+    </div>
   );
 };
 

@@ -1,4 +1,4 @@
-import { HTMLMotionProps } from "framer-motion";
+import { HTMLMotionProps } from "motion/react";
 
 interface ItemAnimationProps {
   delay?: number;

@@ -1,5 +1,5 @@
 import React from "react";
-import { motion, Variants } from "framer-motion";
+import { motion, Variants } from "motion/react";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 

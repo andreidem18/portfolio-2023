@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./block-title.module.css";
-import { HTMLMotionProps, motion } from "framer-motion";
+import { HTMLMotionProps, motion } from "motion/react";
 
 interface BlockTitleParams extends HTMLMotionProps<"div"> {
   title: string;

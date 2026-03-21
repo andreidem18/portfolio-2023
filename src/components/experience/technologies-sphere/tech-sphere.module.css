@@ -1,3 +1,7 @@
 .sphere {
   width: 100%;
 }
+
+.sphere > div {
+  width: 100%;
+}

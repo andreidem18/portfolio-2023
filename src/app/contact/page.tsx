@@ -6,7 +6,7 @@ import ContactForm from "@/components/contact/contact-form/contact-form.componen
 import ContactInfo from "@/components/contact/contact-info/contact-info.component";
 import useTranslate from "@/translations/useTranslate";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   fromLeftAnimationScroll,
   fromRightAnimationScroll,
